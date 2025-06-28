@@ -1,0 +1,16 @@
+[project]
+name = "reasoning-and-decision-making-under-uncertainty"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.3.1",
+    "pygame>=2.6.1",
+    "scipy>=1.16.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.1",
+]
